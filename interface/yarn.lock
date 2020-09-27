@@ -271,9 +271,10 @@ react-md-spinner@^0.3.0:
     inline-style-prefixer "^3.0.3"
     prop-types "^15.5.8"
 
-react-minimal-pie-chart@^3.0.2:
-  version "3.0.2"
-  resolved "https://registry.yarnpkg.com/react-minimal-pie-chart/-/react-minimal-pie-chart-3.0.2.tgz#a9b8e1e4712c4c1883908752f1fc00a68b59fefa"
+react-minimal-pie-chart@^3.5.0:
+  version "3.5.0"
+  resolved "https://registry.yarnpkg.com/react-minimal-pie-chart/-/react-minimal-pie-chart-3.5.0.tgz#ce4b8901092d21c541e38dead5b727566274da57"
+  integrity sha512-nm6ZL/MnN545AHkvsbLXTpYMNBKtuw8tXsMG7l2M9KIyqcbfxGmaF+i4MyAq6pc5ZB/Hh7XPyrZenHjPPOHNHA==
   dependencies:
     prop-types "^15.5.7"
 
