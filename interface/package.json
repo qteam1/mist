@@ -31,7 +31,7 @@
     "react-dom": "^16.2.0",
     "react-md-spinner": "^0.3.0",
     "react-minimal-pie-chart": "^3.0.2",
-    "react-redux": "^5.0.7",
+    "react-redux": "^5.1.2",
     "redux": "^3.7.2"
   },
   "devDependencies": {
