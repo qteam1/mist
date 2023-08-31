@@ -1,0 +1,47 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:hoek:20180212':
+    - log4js > loggly > request > hawk > hoek:
+        patched: '2023-08-31T14:32:45.722Z'
+        id: 'npm:hoek:20180212'
+        path: log4js > loggly > request > hawk > hoek
+    - log4js > loggly > request > hawk > boom > hoek:
+        patched: '2023-08-31T14:32:45.722Z'
+        id: 'npm:hoek:20180212'
+        path: log4js > loggly > request > hawk > boom > hoek
+    - log4js > loggly > request > hawk > sntp > hoek:
+        patched: '2023-08-31T14:32:45.722Z'
+        id: 'npm:hoek:20180212'
+        path: log4js > loggly > request > hawk > sntp > hoek
+  SNYK-JS-HTTPSPROXYAGENT-469131:
+    - log4js > mailgun-js > proxy-agent > https-proxy-agent:
+        patched: '2023-08-31T14:32:45.722Z'
+        id: SNYK-JS-HTTPSPROXYAGENT-469131
+        path: log4js > mailgun-js > proxy-agent > https-proxy-agent
+    - log4js > mailgun-js > proxy-agent > pac-proxy-agent > https-proxy-agent:
+        patched: '2023-08-31T14:32:45.722Z'
+        id: SNYK-JS-HTTPSPROXYAGENT-469131
+        path: >-
+          log4js > mailgun-js > proxy-agent > pac-proxy-agent >
+          https-proxy-agent
+  SNYK-JS-LODASH-567746:
+    - log4js > hipchat-notifier > lodash:
+        patched: '2023-08-31T14:32:45.722Z'
+        id: SNYK-JS-LODASH-567746
+        path: log4js > hipchat-notifier > lodash
+    - log4js > mailgun-js > async > lodash:
+        patched: '2023-08-31T14:32:45.722Z'
+        id: SNYK-JS-LODASH-567746
+        path: log4js > mailgun-js > async > lodash
+    - log4js > slack-node > requestretry > lodash:
+        patched: '2023-08-31T14:32:45.722Z'
+        id: SNYK-JS-LODASH-567746
+        path: log4js > slack-node > requestretry > lodash
+  'npm:tunnel-agent:20170305':
+    - log4js > loggly > request > tunnel-agent:
+        patched: '2023-08-31T14:32:45.722Z'
+        id: 'npm:tunnel-agent:20170305'
+        path: log4js > loggly > request > tunnel-agent

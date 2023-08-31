@@ -22,7 +22,9 @@
     "build:interface": "cd interface && meteor-build-client ../build-interface -p ''",
     "dist:mist": "gulp upload-queue --mist",
     "dist:wallet": "gulp upload-queue --wallet",
-    "task": "gulp"
+    "task": "gulp",
+    "prepare": "yarn run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "main": "main.js",
   "dependencies": {
@@ -46,7 +48,7 @@
     "i18next": "^8.4.3",
     "lodash": "^4.17.4",
     "log-rotate": "^0.2.7",
-    "log4js": "^2.4.1",
+    "log4js": "^3.0.0",
     "lokijs": "^1.4.3",
     "minimongo-standalone": "^1.1.0-3",
     "node-fetch": "^1.7.3",
@@ -69,7 +71,8 @@
     "uuid": "^3.0.1",
     "web3": "^1.0.0-beta.33",
     "ws": "^5.1.1",
-    "yargs": "^8.0.2"
+    "yargs": "^8.0.2",
+    "@snyk/protect": "latest"
   },
   "devDependencies": {
     "chai": "^4.1.1",
@@ -106,5 +109,6 @@
     "shelljs": "^0.8.2",
     "spectron": "3.8.0",
     "xml2js": "^0.4.17"
-  }
+  },
+  "snyk": true
 }
